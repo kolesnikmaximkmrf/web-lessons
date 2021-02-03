@@ -1,8 +1,14 @@
+@font-face{
+    font-family: GothamRounded;
+    src: url(/xz/GothamRoundedLight_21020.ttf);
+}
+
 .header{
   background-color: #445162;
   height: 326px;
   width: 100%;
   text-align: center;
+  font-family: GothamRounded, sans-serif;
 }
 
 .footer{
