@@ -1,7 +1,12 @@
 .header{
   background-color: #445162;
+  height: 326px;
+  width: 100%;
+  text-align: center;
 }
 
 .footer{
+  height: 280px;
+  width: 100%;
   background-color: #445162;
 }
