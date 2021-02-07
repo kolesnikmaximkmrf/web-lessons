@@ -4,49 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Звіт з дисципліни "Web-дизайн"</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <header>
+    <header class="header">
 
         <div>
-            <center>
-                    <img src="max.png" height="150" width="150">
-                    <h1>Колесник Максим Іванович</h1>
-                    <p>Звіт з дисципліни "Web-дизайн"</p>
-            </center>
+                <img src="max.png" height="150" width="150" class="myphoto">
+                <h1 class="fullname">Колесник Максим Іванович</h1>
+                <h2 class="theme">Звіт з дисципліни "Web-дизайн"</h2>
         </div>
 
     </header>
 
-    <hr>
-
-    <main>
-        <div>
-            <article>
-                <h2>Про мене</h2>
-                <p>Студент третього курсу Коледжу Морського та Річкового Флоту. Живу в Києві. Я вважаю, що цієї інформації достатньо.</p>
+    <main class="main">
+        <div class="article--div">
+            <article class="articles">
+                <h2 class="article--headers--lvl2">Про мене</h2>
+                <p class="simple--text">Студент третього курсу Коледжу Морського та Річкового Флоту. Живу в Києві. Я вважаю, що цієї інформації достатньо.</p>
             </article>
         </div>
 
-        <div>
-            <article>
-                <h2>Конспект за темами:</h2>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Bootstrap</li>
+        <div class="article--div">
+            <article class="articles">
+                <h2 class="article--headers--lvl2">Конспект за темами:</h2>
+                <ul class="ul simple--text">
+                    <li class="ul--li">HTML</li>
+                    <li class="ul--li">CSS</li>
+                    <li class="ul--li">JavaScript</li>
+                    <li class="ul--li">Bootstrap</li>
                 </ul>
             </article>
         </div>
 
         <div>
-            <article>
-                <h2>Лабораторні роботи:</h2>
-                <ol>
-                    <a href="https://kolesnikmaximkmrf.github.io/web-lessons/01/"><li>Найпростіша HTML сторінка</li></a>
-                    <a href="https://kolesnikmaximkmrf.github.io/web-lessons/02/"><li>Використання основних HTML тегів</li></a>
+            <article class="articles">
+                <h2 class="article--headers--lvl2">Лабораторні роботи:</h2>
+                <ol class="simple--text">
+                    <li><a href="https://kolesnikmaximkmrf.github.io/web-lessons/01/" class="article--a">Найпростіша HTML сторінка</a></li>
+                    <li><a href="https://kolesnikmaximkmrf.github.io/web-lessons/02/" class="article--a">Використання основних HTML тегів</a></li>
                     <li>Семантична верстка сторінки</li>
                 </ol>
             </article>
@@ -54,17 +51,16 @@
 
     </main>
 
-    <hr>
-
-    <footer>
+    <footer class="footer">
 
         <div>
-            <h2>Контакти</h2>
-                <p><a href="tel:+380666661313">+380666661313</a></p>
-                <p><a href="mailto:kolesnik.maxim@kmrf.kiev.ua">kolesnik.maxim@kmrf.kiev.ua</a></p>
-                <p><a href="https://github.com/kolesnikmaximkmrf/web-lessons">Мій репозиторій на GitHub</a></p>
+            <h2 class="contacts">Контакти</h2>
+                <p class="telephone "><a href="tel:+380666661313" class="conts">+380666661313</a></p>
+                <p class="mail"><a href="mailto:kolesnik.maxim@kmrf.kiev.ua" class="conts">kolesnik.maxim@kmrf.kiev.ua</a></p>
+                <p class="github"><a href="https://github.com/kolesnikmaximkmrf/web-lessons" class="conts">Мій репозиторій на GitHub</a></p>
         </div>
 
+        <p class="copyright">Copyright &copy; Колесник М. І.</p>
     </footer>
 
 </body>

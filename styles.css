@@ -1,0 +1,120 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+  margin: -20px -25px;
+  padding: 20px 0 20px 0;
+  background-color: #F5F5F5;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.header{
+  margin: -8px -25px;
+  background-color: #445162;
+  height: 320px;
+  text-align: center;
+  color: #FCFAFA;
+}
+
+.footer{
+  margin: -8px;
+  height: 270px;
+  background-color: #445162;
+  color: #FFFFFF;
+}
+
+.fullname{
+  margin: 10px 0 10px 0;
+  font-size: 36px;
+}
+
+.theme{
+  margin: 0 0 25px 0;
+  font-size: 18px;
+}
+
+.myphoto{
+  margin: 40px 0 0 0;
+  border: 5px solid #FCFAFA;
+  border-radius: 50%;
+}
+
+.article--headers--lvl2{
+  color: #445161;
+  font-size: 30px;
+  padding: 20px 0 0 35px;
+  margin-top: 0px;
+}
+
+.article--a:hover{
+  color: #00AE95;
+}
+
+.ul{
+  list-style-image: url(../web-lessons/checkicon.png);
+}
+
+.simple--text{
+  color: #333333;
+  font-size: 16px;
+  padding: 0 90px 80px 90px;
+  margin-bottom: 0px;
+}
+
+.articles{
+  background-color: #FAFBFC;
+  margin: 40px 65px 40px 65px;
+  box-shadow: 1px 1px 5px #a3a3a3;
+}
+
+.articles:first-of-type{
+  margin-top: 30px;
+}
+
+.articles:last-of-type{
+  margin-bottom: 80px;
+}
+
+.contacts{
+  font-size: 30px;
+  padding: 40px 0 0 80px;
+}
+
+.telephone{
+  background: url(../web-lessons/phoneicon.png) no-repeat 0 4px;
+  padding: 7px 0 7px 28px;
+  margin-left: 130px;
+  font-size: 16px;
+}
+
+.mail{
+  background: url(../web-lessons/mailicon.png) no-repeat 0 8px;
+  padding: 7px 0 7px 28px;
+  margin-left: 130px;
+  font-size: 16px;
+}
+
+.github{
+  background: url(../web-lessons/githubicon.png) no-repeat 0 5px;
+  padding: 7px 0 7px 28px;
+  margin-left: 130px;
+  font-size: 16px;
+}
+
+.copyright{
+  text-align: center;
+  background-color: #F5F5F5;
+  color: #445162;
+  font-size: 12px;
+  padding: 6px 0 8px 0;
+  margin-bottom: 0px;
+}
+
+.conts:hover{
+  color:#70c2e2;
+}
