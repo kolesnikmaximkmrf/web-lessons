@@ -1,0 +1,38 @@
+.main{
+	height: 200px;
+	width: 435px;
+	border: 1px solid lightgrey;
+	border-radius: 10px;
+}
+
+.circle{
+	background-color: lightgrey;
+	height: 125px;
+	width: 125px;
+	border-radius: 50%;
+	margin: 38px 15px 38px 15px;
+	display: inline-block;
+}
+
+.square{
+	height: 174px;
+	width: 250px;
+	border: 1px solid lightgrey;
+	display: inline-block;
+	margin: 13px 13px 13px 0px;
+	border-radius: 5px;
+}
+
+.first{
+	height: 20px;
+	width: 125px;
+	background: linear-gradient(to right, #d1d1d1, #5c5b5b);
+	margin: 20px 0px 20px 63px;
+}
+
+.other{
+	height: 20px;
+	width: 200px;
+	background: linear-gradient(to right, #d1d1d1, #5c5b5b);
+	margin: 0px 0px 10px 25px;
+}
