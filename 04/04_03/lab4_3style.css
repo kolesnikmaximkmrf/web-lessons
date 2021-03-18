@@ -74,9 +74,19 @@ h2{
     display: inline-block;
     font-size: 16px;
     margin: 0 49px 0 18px;
+    text-align: justify;
 }
 
 .second--text{
     margin: 0 49px 0 52px;
-    padding-bottom: 26px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+.last--p{
+    margin-bottom: 5px;
+}
+
+.first--p{
+    margin-top: 5px;
 }
