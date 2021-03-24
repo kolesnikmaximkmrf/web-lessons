@@ -1,0 +1,23 @@
+nav{
+    padding-top: 0;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    overflow: hidden;
+    height: 48px;
+    vertical-align: center;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+    float: left;
+    padding: 15px 20px 15px 20px;
+}
+
+li:hover{
+    background-color: red;
+}
