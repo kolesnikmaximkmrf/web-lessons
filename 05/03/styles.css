@@ -1,0 +1,145 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    background: #2071BC;
+    height: 300px;
+    margin: -8px;
+    color: white;
+}
+
+.nav--bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 24px;
+}
+
+.nav--ul{
+    margin: 30px 0px 0px 0px;
+    padding: 0;
+}
+
+.nav--li{
+    list-style-type: none;
+    float: left;
+    padding: 0px 0px 10px 0px;
+    margin: 0px 50px 0px 50px;
+    border-bottom: 3px solid #2071BC;
+}
+
+.nav--li:hover{
+    border-bottom: 3px solid #E5E5E5;
+    text-shadow: 1.5px 1.5px 3px #BAB7B7;
+}
+
+.header--h1{
+    text-align: center;
+    font-size: 60px;
+    top: 138px;
+    margin: 0;
+    margin-top: 50px;
+}
+
+.main--ul{
+    text-align: center;
+    font-size: 24px;
+    margin: 65px 0px 0px 48px;
+    padding: 0;
+    font-weight: bold;
+    color: white;
+    float: left;
+}
+
+.main--li{
+    line-height: 60px;
+    background: #2071BC;
+    width: 300px;
+    height: 60px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0px 0px 30px 0px;
+}
+
+.main--li:hover{
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.21);
+}
+
+.main--h2{
+    margin: 45px 0 0 435px;
+    font-size: 34px;
+}
+
+.main--art{
+    text-align: justify;
+    margin: 28px 52px 0 435px;
+    font-size: 18px;
+}
+
+footer{
+    height: 220px;
+    background: #2071BC;
+    color: white;
+    margin: -8px;
+}
+
+.footer--ul--h2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 34px 0px 40px 0px;
+    padding: 0;
+}
+
+.footer--li--h2{
+    height: 40px;
+    list-style-type: none;
+    float: left;
+}
+
+.footer--h2{
+    height: 40px;
+    font-size: 34px;
+}
+
+.footer--ul--info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+    padding:  10px 0px 0px 0px;
+}
+
+.footer--li--info{
+    list-style-type: none;
+}
+
+.footer--ul--icons{
+    padding-right: 50px;
+}
+
+.footer--li--icons{
+    margin-right: 25px;
+    float: left;
+    list-style-type: none;
+}
+
+.footer--contacts{
+    font-size: 18px;
+    padding-left: 100px;
+}
+
+.footer--ul--refs{
+    padding-right: 135px;
+}
+
+.footer--li--refs{
+    list-style-type: none;
+}
+
+.footer--refs{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
