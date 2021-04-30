@@ -1,0 +1,112 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tile{
+    border: 1px solid rgb(218, 218, 218);
+    height: 500px;
+    width: 260px;
+}
+
+.osn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dopoln{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+    background: #f84147;
+    align-self: baseline;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    border-radius: 50px;
+}
+
+.heartandvesi{
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-self: baseline;
+}
+
+.heart{
+    height: 23px;
+    width: 30px;
+}
+
+.vesi{
+    height: 25px;
+    width: 35px;
+}
+
+.stars{
+    height: 20px;
+    width: 80px;
+}
+
+.div--bot{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.corzina{
+    height: 25px;
+    width: 42px;
+}
+
+.div--feedbacks{
+    display: flex;
+}
+
+.fb{
+    padding-left: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.a--fb{
+    color: rgb(28, 164, 218) !important;
+    font-size: 12px;
+}
+
+.a--fb:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.old--price{
+    color: lightgrey;
+    font-size: 14px;
+}
+
+.price{
+    color: red;
+    font-size: 22px;
+}
+
+.available{
+    color: rgb(0, 160, 70);
+    font-size: 12px;
+}
+
+.for--price--and--corzina{
+    display: flex;
+    flex-direction: row;
+}
+
+.for--corzina{
+    flex-basis: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
